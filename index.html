@@ -13,13 +13,14 @@
         <h1 id="title">freeCodeCamp Survey Form</h1>
         <p id="description">Thank you for taking the time to help us improve the platform</p>
         <form action="https://freecodecamp.com/submit-survey-form" id="survey-form">
+            <div>
             <section>
                 <fieldset class="top">
                     <label id="name-label">Name <input type="text" ; placeholder="Enter your name" id="name"
                             required></label>
                     <label id="email-label">Email <input type="email" placeholder="Enter your Email" id="email"
                             required></input></label>
-                    <label id="number-label">Age (optional) <input type="number" placeholder="Age" id="number" min="16"
+                    <label id="number-label">Age <em class="embed">(optional)</em> <input type="number" placeholder="Age" id="number" min="16"
                             max="80"></label>
                 </fieldset>
             </section>
@@ -54,7 +55,7 @@
                     </select>
                 </fieldset>
                 <fieldset>
-                    <legend>What would you like to see improved? (Check all that apply)</legend>
+                    <legend>What would you like to see improved? <em class="embed">(Check all that apply)</em></legend>
                     <label><input value="frontend" name="improve" type="checkbox" id="frontend"> Front-end
                         Projects</label>
                     <label><input value="backend" name="improve" type="checkbox" id="backend"> Back-end Projects</label>
@@ -76,6 +77,7 @@
                 </fieldset>
             </section>
             <button id="submit" value="submit" type="submit">Submit</button>
+          </div>
         </form>
     </main>
 </body>

@@ -17,7 +17,6 @@ form {
     max-width: 600px;
     min-width: 300px;
     background-color: rgba(27, 27, 50, 0.8);
-    ;
     color: #f5f6f7;
     font-family: 'Poppins', sans-serif;
     font-size: 18px
@@ -35,12 +34,6 @@ p {
     text-align: center
 }
 
-form {
-    width: 100%;
-    max-width: 600px;
-    min-width: 300px;
-}
-
 fieldset {
     border: none;
     padding: 1.5rem 0;
@@ -48,4 +41,11 @@ fieldset {
 }
 .top input {
     display: block;
+}
+div {
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+.embed {
+    font-size: medium;
 }
