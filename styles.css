@@ -44,4 +44,8 @@ fieldset {
 }
 div {
     padding-left: 25px;
+    padding-bottom: 25px;
+}
+.embed {
+    font-size: medium;
 }
