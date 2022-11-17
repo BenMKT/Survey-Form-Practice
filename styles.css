@@ -11,7 +11,7 @@ body {
 
 form {
     width: 100%;
-    height: 125vh;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(27, 27, 50, 0.8);
