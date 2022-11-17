@@ -4,6 +4,7 @@
 <head>
     <title>freeCodeCamp Survey Form</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="styles.css" rel="stylesheet">
 </head>
 
@@ -13,7 +14,7 @@
         <p id="description">Thank you for taking the time to help us improve the platform</p>
         <form action="https://freecodecamp.com/submit-survey-form" id="survey-form">
             <section>
-                <fieldset>
+                <fieldset class="top">
                     <label id="name-label">Name <input type="text" ; placeholder="Enter your name" id="name"
                             required></label>
                     <label id="email-label">Email <input type="email" placeholder="Enter your Email" id="email"
@@ -71,10 +72,10 @@
                 </fieldset>
                 <fieldset>
                     <legend>Any comments or suggestions?</legend>
-                    <textarea id="textarea" rows="7" cols="70" placeholder="Enter your comment here..."></textarea>
+                    <textarea id="textarea" rows="7" cols="70" value="comments" placeholder="Enter your comment here..."></textarea>
                 </fieldset>
             </section>
-            <button id="submit" type="submit">Submit</button>
+            <button id="submit" value="submit" type="submit">Submit</button>
         </form>
     </main>
 </body>
