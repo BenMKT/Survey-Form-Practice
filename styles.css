@@ -24,7 +24,7 @@ form {
 
 label {
     display: block;
-    margin: 0.5rem 0
+    margin: 8px;
 }
 
 h1,
@@ -36,11 +36,13 @@ p {
 
 fieldset {
     border: none;
-    padding: 1.5rem 0;
+    padding: 0.8rem 0;
     border-bottom: none;
 }
 .top input {
     display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 div {
     padding-left: 25px;
@@ -48,4 +50,7 @@ div {
 }
 .embed {
     font-size: medium;
+}
+.dropdown{
+    margin-left: 3px;
 }
